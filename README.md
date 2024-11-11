@@ -185,7 +185,7 @@ Antes de probarlo de manera física se realizó una prueba simulada para garanti
 3. **Movimientos hacia las cajas y bases**:
    - `Go` seguido de nombres como `Caja_Izq`, `Caja_Der`, `Base1`, `Base3`, `Fusible1`, `Fusible2`, etc.: Envía al robot a posiciones predefinidas para recoger o colocar componentes. 
    - Cada posición se indica con un sufijo (`_1`, `_2`, `_3`, `_4`) para especificar puntos exactos dentro de las cajas o bases.
-   - **Uso de CP**: El sufijo `CP` en cada comando `Go` significa "Current Position" y le indica al robot que debe moverse hacia la siguiente posición manteniendo su orientación y referencia actuales. Esto permite que el robot siga una trayectoria precisa y constante, crucial en tareas de ensamblaje donde debe llegar a cada posición sin ajustar su orientación, asegurando la precisión al manipular los fusibles y las bases.
+   - `CP`: El sufijo `CP` en cada comando `Go` significa "Current Position" y le indica al robot que debe moverse hacia la siguiente posición manteniendo su orientación y referencia actuales. Esto permite que el robot siga una trayectoria precisa y constante, crucial en tareas de ensamblaje donde debe llegar a cada posición sin ajustar su orientación, asegurando la precisión al manipular los fusibles y las bases.
 
 4. **Secuencia de ensamblaje**:
    - La secuencia de movimientos sigue un patrón de recoger fusibles de una posición y colocarlos en bases asignadas. Cada operación se completa con movimientos entre los puntos predefinidos y activaciones de la pinza.
