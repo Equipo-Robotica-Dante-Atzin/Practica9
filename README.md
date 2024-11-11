@@ -194,3 +194,25 @@ Antes de probarlo de manera física se realizó una prueba simulada para garanti
    - `Home`: Lleva al robot de vuelta a la posición de inicio tras finalizar la tarea.
    - `Power Low`: Reduce la potencia al mínimo al concluir el proceso.
    - `Fend`: Marca el final de la función principal.
+     
+El resultado final de la secuencia se visualiza en la siguiente imagen:
+
+![Imagen de WhatsApp 2024-11-04 a las 23 53 49_26747a37](https://github.com/user-attachments/assets/1a781fcc-fcc9-46b7-979d-a975d71875df)
+
+## Conclusiones
+
+***Atzin Morales Alejandre:*** 
+
+
+***Dante Mejía Silva:*** 
+
+En conclusión, esta práctica de laboratorio permitió aplicar y comprender cómo un brazo robótico Epson puede ser programado para realizar tareas de manipulación y ensamblaje de componentes de manera automatizada. A través de una secuencia de movimientos controlados, el robot fue capaz de mover fusibles entre diferentes posiciones y colocarlos en bases específicas, todo ello con una alta precisión gracias al uso de puntos predefinidos y la función `CP` para mantener la orientación y trayectoria correcta en todo momento.
+
+El uso de comandos como `Go` para alcanzar posiciones clave, junto con la activación de actuadores para recoger y soltar componentes, demostró la capacidad del robot para ejecutar tareas repetitivas con eficiencia y exactitud. Además, la configuración de parámetros como velocidad, aceleración y potencia, y el control de la secuencia mediante las funciones de inicio y apagado, permitió un manejo eficiente del robot durante toda la operación.
+
+Esta experiencia subraya la importancia de la programación precisa y la integración de distintos comandos para lograr una automatización exitosa en tareas industriales, lo que demuestra el potencial de la robótica en aplicaciones de ensamblaje y manipulación de componentes.
+
+## Referencias Bibliográficas 
+
+[1] 	EpsonCompany, «Especialistas en automatización industrial». 2024, https://www.epson.es/es_ES/robots
+
