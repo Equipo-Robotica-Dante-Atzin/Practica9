@@ -201,7 +201,10 @@ El resultado final de la secuencia se visualiza en la siguiente imagen:
 
 ## Conclusiones
 
-***Atzin Morales Alejandre:*** 
+***Atzin Morales Alejandre:*** Esta práctica de laboratorio con el brazo robótico Epson evidenció la importancia de una programación precisa y del control ajustado en cada etapa del proceso de ensamblaje. La implementación de funciones clave como “Motor On”, “Power High/Low” y “Speed/Accel” permitió ajustar la potencia, velocidad y aceleración en los movimientos, optimizando así la secuencia de posicionamiento y manipulación de los fusibles en sus respectivas bases.
+
+Por otra parte, el uso de funciones como “Go” con puntos críticos predefinidos (CP) facilitó un movimiento constante y preciso hacia las posiciones específicas de las cajas y bases, mientras que “On 2” y “Off 2” controlaron el agarre de los fusibles, asegurando una colocación exacta en cada base. La simulación previa fue esencial, ya que permitió anticipar y corregir posibles inconsistencias en la trayectoria, reforzando la precisión en cada fase y demostrando el potencial del brazo robótico para satisfacer los requisitos de una línea de ensamblaje industrial.
+
 
 
 ***Dante Mejía Silva:*** 
